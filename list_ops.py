@@ -6,3 +6,10 @@ def sestevek(list):
         vsota +=list[i]
     return vsota
 print(sestevek(list))
+
+def povprecje(list):
+    vsota = 0
+    for i in range(0,len(list)):
+        vsota+=list[i]
+    return vsota/len(list)
+print(povprecje(list))
