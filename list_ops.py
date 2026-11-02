@@ -21,3 +21,11 @@ def najvecje(list):
             najvecje=list[i]
     return najvecje
 print(najvecje(list))
+
+def najmanjse(list):
+    najmanjse=list[0]
+    for i in range(len(list)-1):
+        if list[i]<najmanjse:
+            najmanjse=list[i]
+    return najmanjse
+print(najmanjse(list))
