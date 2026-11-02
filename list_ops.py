@@ -13,3 +13,11 @@ def povprecje(list):
         vsota+=list[i]
     return vsota/len(list)
 print(povprecje(list))
+
+def najvecje(list):
+    najvecje=0
+    for i in range(len(list)-1):
+        if list[i]>najvecje:
+            najvecje=list[i]
+    return najvecje
+print(najvecje(list))
