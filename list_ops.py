@@ -29,3 +29,13 @@ def najmanjse(list):
             najmanjse=list[i]
     return najmanjse
 print(najmanjse(list))
+
+def sodi(list):
+    st_sodih=0
+    for i in range(len(list)):
+        if list[i]%2==0:
+            st_sodih+=1
+    return st_sodih
+print(sodi(list))
+        
+        
