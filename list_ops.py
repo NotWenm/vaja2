@@ -51,4 +51,8 @@ def vecje_od_10(list):
     for i in range(len(list)):
         if list[i] > 10:
             print(list[i])
+
+def uredi(list):
+    list.sort()
+    print(list)
         
