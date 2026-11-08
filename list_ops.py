@@ -45,5 +45,10 @@ def lihi(list):
             st_lihih += 1
     return st_lihih
 
-print(lihi(list))       
+print(lihi(list))  
+
+def vecje_od_10(list):
+    for i in range(len(list)):
+        if list[i] > 10:
+            print(list[i])
         
