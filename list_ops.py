@@ -55,4 +55,8 @@ def vecje_od_10(list):
 def uredi(list):
     list.sort()
     print(list)
-        
+
+def dodaj(list):
+    stevilo = int(input("Vnesi celo število: "))
+    list.append(stevilo)
+    print(list)
