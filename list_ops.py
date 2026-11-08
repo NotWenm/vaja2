@@ -60,3 +60,11 @@ def dodaj(list):
     stevilo = int(input("Vnesi celo število: "))
     list.append(stevilo)
     print(list)
+
+def odstrani(list):
+    stevilo = int(input("Vnesi število za odstranitev: "))
+    if stevilo in list:
+        list.remove(stevilo)
+        print(list)
+    else:
+        print("Števila ni v seznamu.")
